@@ -1,10 +1,10 @@
 # KirikiriTools
-Tools for the Kirikiri visual novel engine. [Download page](/KirikiriTools/releases)
+Tools for the Kirikiri visual novel engine. [Download page](../../releases)
 
 ## KirikiriDescrambler
 Some Kirikiri games have their plaintext scripts (.ks/.tjs) scrambled or compressed. Such files can be recognized by the signature `FE FE XX FF FE` at the start, `XX` being `00`, `01` or `02`. KirikiriDescrambler turns them into regular text files which can be placed right back in the game - no rescrambling needed.
 
-Usage: `KirikiriDescrambler .\data *.ks`
+Usage: `KirikiriDescrambler .\data`
 
 ## KirikiriUnencryptedArchive
 A DLL (named "version.dll") that makes games accept unencrypted .xp3 archives. By using this file, it's no longer necessary to identify and replicate the encryption for each game you work on; just create an unencrypted archive with the Xp3Pack tool (included in this repository), throw the version.dll in the game's folder, and you're done.

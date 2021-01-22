@@ -12,7 +12,6 @@ namespace Arc.Ddsi.KirikiriDescrambler
         {
             if (args.Length != 1)
             {
-                Console.WriteLine("Usage: TextDescramble <file>");
                 Console.WriteLine($"Usage: {Assembly.GetEntryAssembly().GetName().Name} <file/folder>");
                 return;
             }
